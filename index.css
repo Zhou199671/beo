@@ -1,0 +1,111 @@
+body{
+	margin:0;
+}
+.box{
+	width:1024px;
+	height:600px;
+	margin:0 auto;
+}
+.box-picture{
+	width:1024px;
+	height:600px;
+	background:#192314;
+	position:relative;
+}
+.box-picture1{
+	width:700px;
+    height:500px;
+    background:url(green.jpg);
+    background-size:700px auto;
+    position:absolute;
+    top:0px;
+    left:300px;
+    float:right;
+}
+.box-picture2{
+	width: 522px;
+	height: 241px;
+	position: absolute;
+	left:30px;
+	top:133px;
+}
+.box1{
+	width: 169px;
+	height: 34px;
+	color:white;
+/*	background: yellow;*/
+
+}
+.box2{
+	width: 394px;
+	height: 71px;	
+/*	background: blue;*/
+	margin-top: 20px;
+	font-size: 40px;
+	color:white;
+}
+.box3{
+	width: 300px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	/*background: yellow;*/
+	margin-top: 10px;
+	color:white;
+}
+.box4{
+	width: 288px;
+	/*height: 42px;*/
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	background: grey;
+	margin-top: 20px;
+	color:white;
+}
+.product{
+	height:305px;
+ 	padding-bottom:100px;
+	background: url("img-bg-1350.jpg");
+	background-size: 100% auto;
+	background-position: 0px -158px;
+}
+.product-pro{
+	width:706px;
+	height:354px;
+/*	background-color: yellow;*/
+	margin:0 auto;
+	margin-top: -48px;
+	position: relative;
+	z-index: 100;
+}
+.pro1{
+	width:235px;
+	height:352px;
+	background: url("QQ图片20180606181552.jpg");
+	float: left;
+	background-size: 100% auto;
+	position: relative;
+}
+.pro2{
+	width:235px;
+	height:352px;
+	background: url("beoplay-p6-8.jpg");
+	float: left;
+	background-size: 100% auto;
+	position: relative;
+}
+.pro3{
+	width:235px;
+	height:352px;
+	background: url("earset-subtile1.jpg");
+	float: left;
+	background-size: 100% auto;
+	position: relative;
+}
+.z{
+	position: absolute;
+	top:20px;
+	left:20px;
+}
